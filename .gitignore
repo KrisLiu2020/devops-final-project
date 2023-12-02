@@ -1,0 +1,16 @@
+# Ignore Terraform-specific files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+terraform.log
+
+# Ignore OS and editor-specific files
+.DS_Store
+*.bak
+*.tmp
+*.log
+*.out
+*.vscode/
+*.idea/
